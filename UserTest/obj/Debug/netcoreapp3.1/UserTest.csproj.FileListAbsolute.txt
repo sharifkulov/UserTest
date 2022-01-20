@@ -1,0 +1,14 @@
+F:\Project\UserTest\UserTest\bin\Debug\netcoreapp3.1\UserTest.exe
+F:\Project\UserTest\UserTest\bin\Debug\netcoreapp3.1\UserTest.deps.json
+F:\Project\UserTest\UserTest\bin\Debug\netcoreapp3.1\UserTest.runtimeconfig.json
+F:\Project\UserTest\UserTest\bin\Debug\netcoreapp3.1\UserTest.runtimeconfig.dev.json
+F:\Project\UserTest\UserTest\bin\Debug\netcoreapp3.1\UserTest.dll
+F:\Project\UserTest\UserTest\bin\Debug\netcoreapp3.1\UserTest.pdb
+F:\Project\UserTest\UserTest\obj\Debug\netcoreapp3.1\UserTest.csproj.AssemblyReference.cache
+F:\Project\UserTest\UserTest\obj\Debug\netcoreapp3.1\UserTest.GeneratedMSBuildEditorConfig.editorconfig
+F:\Project\UserTest\UserTest\obj\Debug\netcoreapp3.1\UserTest.AssemblyInfoInputs.cache
+F:\Project\UserTest\UserTest\obj\Debug\netcoreapp3.1\UserTest.AssemblyInfo.cs
+F:\Project\UserTest\UserTest\obj\Debug\netcoreapp3.1\UserTest.csproj.CoreCompileInputs.cache
+F:\Project\UserTest\UserTest\obj\Debug\netcoreapp3.1\UserTest.dll
+F:\Project\UserTest\UserTest\obj\Debug\netcoreapp3.1\UserTest.pdb
+F:\Project\UserTest\UserTest\obj\Debug\netcoreapp3.1\UserTest.genruntimeconfig.cache
