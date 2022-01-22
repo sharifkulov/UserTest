@@ -5,28 +5,34 @@ using System.Text;
 
 namespace UserTest
 {
-    class UserRepository
+    class UserRepository:IUserRepository<User>
     {
         private readonly List<User> UserList = new List<User>();
+
+
         public void AddUser(int Id, string Name, int Phone, int Age)
         {
-            UserList.Add(new User(Id,Name,Phone,Age));
+            UserList.Add(new User(Id,Name,Phone,Age));                                 
         }
-        public void GetUser(int Id)
+        public IEnumerable<User> GetUser(int Id)
         {
             User found = UserList.Find(item => item.Id == Id);
+
             Console.Write("Пользователь с Id {0} найден: ", Id);
-            Console.WriteLine("ID :  {0}, имя пользователя:  {1}, Телефон :  {2}, Возраст :  {3} лет", found.Id, found.Name, found.Phone, found.Age);                     
+            Console.WriteLine("ID :  {0}, имя пользователя:  {1}, Телефон :  {2}, Возраст :  {3} лет", found.Id, found.Name, found.Phone, found.Age);
+            return UserList;
         }
-        public void GetOrderedUsers()
+        public IEnumerable<User> GetOrderedUsers()
         {
             UserList.Sort((x, y) => x.Id.CompareTo(y.Id));
             Console.WriteLine("Список пользователей ");
+            
             for (int i = 0; i < UserList.Count; i++)
             {
 
                 Console.WriteLine("ID :  {0}, имя пользователя:  {1}, Телефон :  {2}, Возраст :  {3} лет", UserList[i].Id, UserList[i].Name, UserList[i].Phone, UserList[i].Age);
             }
+            return UserList;
         }
         public void DeleteUser(int Id)
         {
